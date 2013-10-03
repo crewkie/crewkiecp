@@ -1,0 +1,7 @@
+{
+    "name": "crewkie/crewkiecp",
+    "require": {
+        "zendframework/zendframework": "2.2.*",
+        "monolog/monolog": "1.6.0"
+    }
+}
