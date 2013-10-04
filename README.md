@@ -17,17 +17,7 @@ Prerequisites
 
 Apache 2+ and PHP 5.3+ is required. MySQL is also required.
 
-For Apache, use a named virtualhost environment. In the vhosts section, add the following:
-
-<VirtualHost *:80>
-        ServerName [your domain name]
-        SetEnv APPLICATION_ENV "production"
-        DocumentRoot "/path/to/root"
-        <Directory "path/to/root/cp/public">
-                AllowOverride All
-                Allow From All
-        </Directory>
-</VirtualHost>
+For Apache, use a named virtualhost environment set to the /path/to/root/[cp/public].
 
 You will also need to monitor the Apache error_logs in the event of untraceable issues.
 
